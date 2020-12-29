@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 100%; 
+    
+}
+
+.header {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    font-size: 35px;
+    font-family: "Lucida Handwriting", monospace;
+    font-weight: bold;
+    text-shadow: 1px 1px;
+    color: rgb(9, 9, 53);
+}
+
+.sketch-board {
+    display: grid; 
+    grid-template-columns: repeat(16, 1fr);
+    border: solid;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    opacity: 80%;
+    box-shadow: 5px 10px;
+}
+
+.sketch-box:hover {
+    transform: scale(1.3);
+}
+
+.colored-box {
+    background-color: black;
+}
+
+.clear-button {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: white;
+    outline: none;
+    border: solid;
+    border-color: rgb(9, 9, 53);
+}
+
